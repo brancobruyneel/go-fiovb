@@ -2,7 +2,7 @@
 package fiovb
 
 import (
-	"github.com/OpenPixelSystems/go-fiovb/teec"
+	"github.com/brancobruyneel/go-fiovb/teec"
 )
 
 const (

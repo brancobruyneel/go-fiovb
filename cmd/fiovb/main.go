@@ -7,7 +7,7 @@ import (
 	"os"
 	"os/user"
 
-	"github.com/OpenPixelSystems/go-fiovb/fiovb"
+	"github.com/brancobruyneel/go-fiovb/fiovb"
 )
 
 type Mode int
