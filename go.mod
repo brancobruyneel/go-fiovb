@@ -1,3 +1,3 @@
-module github.com/OpenPixelSystems/go-fiovb
+module github.com/brancobruyneel/go-fiovb
 
 go 1.19
