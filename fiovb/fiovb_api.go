@@ -1,3 +1,4 @@
+// go:build cgo && linux
 package fiovb
 
 import (
