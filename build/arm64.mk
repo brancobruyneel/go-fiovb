@@ -14,7 +14,7 @@ arm64-clean: fiovb-tool-clean-arm64
 ################################################################################
 
 fiovb-tool-arm64:
-	@$(PREFIX_ARM64) $(GO) build -o $(BIN_ARM64)/fiovb github.com/OpenPixelSystems/go-fiovb/cmd/fiovb/
+	@$(PREFIX_ARM64) $(GO) build -o $(BIN_ARM64)/fiovb github.com/brancobruyneel/go-fiovb/cmd/fiovb/
 	@echo Compiled $@
 
 fiovb-tool-clean-arm64:

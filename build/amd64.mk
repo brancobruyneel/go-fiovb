@@ -14,7 +14,7 @@ amd64-clean: fiovb-tool-clean-amd64
 ################################################################################
 
 fiovb-tool-amd64:
-	@$(PREFIX_AMD64) $(GO) build -o $(BIN_AMD64)/fiovb github.com/OpenPixelSystems/go-fiovb/cmd/fiovb/
+	@$(PREFIX_AMD64) $(GO) build -o $(BIN_AMD64)/fiovb github.com/brancobruyneel/go-fiovb/cmd/fiovb/
 	@echo Compiled $@
 
 fiovb-tool-clean-amd64:
