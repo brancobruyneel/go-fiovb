@@ -13,15 +13,15 @@ func (fiovb *FIOVB) Initialize() error {
 	return nil
 }
 
-func (fiovb *FIOVB) Write(name, value string) error {
+func (fiovb *FIOVB) Write(_, _ string) error {
 	return nil
 }
 
-func (fiovb *FIOVB) Read(name string) (string, error) {
+func (fiovb *FIOVB) Read(_ string) (string, error) {
 	return "", nil
 }
 
-func (fiovb *FIOVB) Delete(name string) error {
+func (fiovb *FIOVB) Delete(_ string) error {
 	return nil
 }
 
